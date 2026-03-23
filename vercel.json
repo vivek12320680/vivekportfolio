@@ -1,0 +1,10 @@
+{
+  "buildCommand": "cd VivekPortfolio && npm install && npm run build",
+  "outputDirectory": "VivekPortfolio/dist",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}
