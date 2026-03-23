@@ -30,15 +30,19 @@ const PracticeSection = () => (
             <div className="space-y-4 mb-8">
               <div className="flex justify-between items-center pb-2 border-b border-border/50">
                 <span className="text-sm text-muted-foreground font-display">Completed Rooms</span>
-                <span className="font-bold text-foreground text-lg">17</span>
+                <span className="font-bold text-foreground text-lg">18</span>
               </div>
               <div className="flex justify-between items-center pb-2 border-b border-border/50">
                 <span className="text-sm text-muted-foreground font-display">Streak</span>
-                <span className="font-bold text-foreground text-lg">30 Days</span>
+                <span className="font-bold text-foreground text-lg">40 Days</span>
               </div>
               <div className="flex justify-between items-center pb-2 border-b border-border/50">
                 <span className="text-sm text-muted-foreground font-display">Rank Progress</span>
                 <span className="font-bold text-green-500 text-lg">Top 30%</span>
+              </div>
+              <div className="flex items-center gap-2 text-muted-foreground pt-2">
+                <Trophy size={16} className="text-green-500" />
+                <span className="text-sm font-display">Focus: Cyber Security</span>
               </div>
             </div>
           </div>
@@ -72,15 +76,15 @@ const PracticeSection = () => (
             <div className="space-y-4 mb-8">
               <div className="flex justify-between items-center pb-2 border-b border-border/50">
                 <span className="text-sm text-muted-foreground font-display">Problems Solved</span>
-                <span className="font-bold text-foreground text-lg">35</span>
+                <span className="font-bold text-foreground text-lg">40</span>
               </div>
               <div className="flex justify-between items-center pb-2 border-b border-border/50">
                 <span className="text-sm text-muted-foreground font-display">Streak</span>
-                <span className="font-bold text-foreground text-lg">30 Days</span>
+                <span className="font-bold text-foreground text-lg">40 Days</span>
               </div>
               <div className="flex justify-between items-center pb-2 border-b border-border/50">
                 <span className="text-sm text-muted-foreground font-display">Rank</span>
-                <span className="font-bold text-orange-500 text-lg">&lt; 3,000,000</span>
+                <span className="font-bold text-orange-500 text-lg">&lt; 29 Lakh</span>
               </div>
               
               <div className="flex items-center gap-2 text-muted-foreground pt-2">

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { ShieldCheck, BookOpen, FileCode, MonitorPlay, Server, Award } from "lucide-react";
+import { ShieldCheck, BookOpen, FileCode, MonitorPlay, Server, Award, BrainCircuit, Users, Lightbulb, Calculator } from "lucide-react";
 import {
   Dialog,
   DialogContent,
@@ -45,6 +45,36 @@ const certifications = [
     organization: "IBM",
     icon: MonitorPlay,
     image: "/IBMhardwareAnd OS.png"
+  },
+  {
+    title: "Master Generative AI & Tools",
+    organization: "Udemy",
+    icon: BrainCircuit,
+    image: "/MasterGenerativeAIandTools.png"
+  },
+  {
+    title: "Prompt Engineering",
+    organization: "Infosys",
+    icon: Lightbulb,
+    image: "/PromptEngineering.png"
+  },
+  {
+    title: "Build Generative AI",
+    organization: "Infosys",
+    icon: BrainCircuit,
+    image: "/BuildGenerativeAI.png"
+  },
+  {
+    title: "Computational Theory",
+    organization: "Infosys",
+    icon: Calculator,
+    image: "/ComputationalTheory.png"
+  },
+  {
+    title: "Community Development",
+    organization: "NEEV Foundation",
+    icon: Users,
+    image: "/CommunityDevelopment.jpg"
   }
 ];
 

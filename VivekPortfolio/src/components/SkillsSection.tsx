@@ -15,7 +15,7 @@ const skillCategories = [
   {
     title: "Tools/Platforms",
     icon: Shield,
-    items: ["Nmap", "Wireshark", "Git", "GitHub", "Linux", "VMware", "Autopsy", "Recon-ng"],
+    items: ["Nmap", "Wireshark", "Git", "GitHub", "Linux", "VMware", "Autopsy", "Recon-ng", "Maltego"],
   },
   {
     title: "Backend/Concepts",

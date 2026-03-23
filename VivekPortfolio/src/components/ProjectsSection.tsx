@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FolderGit2, ExternalLink, Github } from "lucide-react";
+import { FolderGit2, Github } from "lucide-react";
 
 const projects = [
   {
@@ -8,7 +8,7 @@ const projects = [
     description: "Architected a secure and trustworthy voting platform utilizing facial recognition and OTP authentication, backed by a fully encrypted Google Cloud SQL database to ensure data integrity.",
     tags: ["Python", "Flask", "Face Recognition", "Cloud SQL"],
     features: ["Biometric verification", "OTP authentication", "Encrypted database"],
-    github: "#",
+    github: "https://github.com/vivek12320680/E-Voting-Project",
   },
   {
     title: "AI Resume Builder",
@@ -16,7 +16,7 @@ const projects = [
     description: "Developed a dynamic web application that leverages the Google Gemini API to automatically generate and format professional resume content with AI assistance.",
     tags: ["HTML", "CSS", "JavaScript", "Gemini API"],
     features: ["AI content generation", "Professional formatting", "Real-time preview"],
-    github: "#",
+    github: "https://github.com/vivek12320680/Professional-AI-Resume-Builder",
   },
   {
     title: "Travel Guide Website",
@@ -24,7 +24,7 @@ const projects = [
     description: "Designed a responsive and visually appealing travel information platform with an interactive user interface for exploring global destinations and comprehensive travel guides.",
     tags: ["HTML", "CSS", "JavaScript"],
     features: ["Interactive UI", "Responsive design", "Destination catalog"],
-    github: "#",
+    github: "https://github.com/vivek12320680/Travel-guidance",
   },
 ];
 
@@ -60,9 +60,6 @@ const ProjectsSection = () => (
               <div className="flex gap-3">
                 <a href={project.github} target="_blank" rel="noopener noreferrer" className="text-muted-foreground hover:text-cyber-blue transition-colors cursor-pointer" title="View Source">
                   <Github size={18} />
-                </a>
-                <a href="#" className="text-muted-foreground hover:text-primary transition-colors cursor-pointer" title="Live Demo">
-                  <ExternalLink size={18} />
                 </a>
               </div>
             </div>
